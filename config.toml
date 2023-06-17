@@ -11,3 +11,9 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+# newline = "none"
+newline = "all"
