@@ -1,4 +1,5 @@
-theme = "catppuccin_mocha"
+# github_dark_dimmed kanagawa mellow nightfox penumbra+ rose_pine rose_pine_moon
+theme = "kanagawa"
 
 [editor]
 line-number = "relative"
@@ -18,8 +19,8 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
-# [editor.whitespace]
-# render = "all"
+[editor.whitespace]
+render = "all"
 
 [editor.soft-wrap]
 enable = true
