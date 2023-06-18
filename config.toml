@@ -1,9 +1,14 @@
-# theme = "onedark"
 theme = "catppuccin_mocha"
 
 [editor]
 line-number = "relative"
 mouse = false
+
+[editor.statusline]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending"]
+
+[editor.lsp]
+display-inlay-hints = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -13,8 +18,5 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
-[editor.whitespace.render]
-space = "all"
-tab = "all"
-# newline = "none"
-newline = "all"
+[editor.whitespace]
+render = "all"
