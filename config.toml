@@ -6,7 +6,7 @@ line-number = "relative"
 mouse = false
 
 [editor.statusline]
-right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending"]
+right = ["version-control", "spacer", "diagnostics", "selections", "position", "file-encoding", "file-line-ending"]
 
 [editor.lsp]
 display-inlay-hints = true
