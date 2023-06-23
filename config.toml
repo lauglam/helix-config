@@ -1,5 +1,5 @@
-# github_dark_dimmed kanagawa mellow nightfox penumbra+ rose_pine rose_pine_moon
-theme = "kanagawa"
+# github_dark_dimmed kanagawa mellow nightfox onedark penumbra+ rose_pine rose_pine_moon
+theme = "onedark"
 
 [editor]
 line-number = "relative"
